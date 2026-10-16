@@ -1,0 +1,17 @@
+Riichi Mortal-S42 CPU client, recovery-v2, 2026-10-16.
+
+The newly written wrapper and native-fixture adapters are AGPL-3.0-or-later.
+The unchanged Equim-chan/Mortal source is included under vendor/Mortal-upstream,
+with its original LICENSE and notices. Exact upstream commit:
+0cff2b52982be5b1163aa9a62fb01f03ce91e0d2
+https://github.com/Equim-chan/Mortal/tree/0cff2b52982be5b1163aa9a62fb01f03ce91e0d2
+
+The separately downloaded haor/Mortal-S42 weights are Apache-2.0. They are not
+included in the source bundle. Original model notice and license are retained
+under client/licenses. Exact model revision:
+524981f21a929e3c3b269f65af79b84163bd02ca
+https://huggingface.co/haor/Mortal-S42/tree/524981f21a929e3c3b269f65af79b84163bd02ca
+
+Dependency versions/checksums and source references are provided in the locks,
+Cargo.lock and BUILD.md. Retain these notices and applicable corresponding-source
+availability when distributing or offering covered software over a network.
